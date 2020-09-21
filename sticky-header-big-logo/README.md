@@ -6,7 +6,7 @@ Wenn die Seite ganz nach oben gescrollt ist, soll das Seitenlogo sehr groß und 
 * [Theme *Twenty Twenty*](https://de.wordpress.org/themes/twentytwenty/) für den Sticky Header. Bei anderen Sticky-Header-Lösungen wird vorliegender Code vermutlich nicht mehr ohne Weiteres funktionieren. 
 
 # Javascript
-Das Javascript ist unter *Einstellungen/Insert Headers and Footers* im Footer einzufügen. Dieses speichert zum einen die aktuelle Scroll-Position im `data-scroll`-Attribut des `html`-Elements um darauf im CSS zuzugreifen und ändert das `src`-Attribut im `img` des Logos, da sich dies nicht über CSS lösen lässt.
+Das [Javascript](https://github.com/lauthals/silke-snippets/blob/master/sticky-header-big-logo/javascript.js) ist unter *Einstellungen/Insert Headers and Footers* im Footer einzufügen. Dieses speichert zum einen die aktuelle Scroll-Position im `data-scroll`-Attribut des `html`-Elements um darauf im CSS zuzugreifen und ändert das `src`-Attribut im `img` des Logos, da sich dies nicht über CSS lösen lässt.
 
 # CSS
-Das CSS steuert das genaue Erscheinungsbild des angepassten Headers und fixt ein paar Layout-Issues, die durch das neue Verhalten auftreten.
+Das [CSS](https://github.com/lauthals/silke-snippets/blob/master/sticky-header-big-logo/style.css) steuert das genaue Erscheinungsbild des angepassten Headers und fixt ein paar Layout-Issues, die durch das neue Verhalten auftreten.
