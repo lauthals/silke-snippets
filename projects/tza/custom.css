@@ -1,0 +1,298 @@
+/* sticky header logo handling */
+
+
+
+.tw-header-layout-stack .header-inner {
+	flex-direction: row;
+}
+
+
+.custom-logo {
+	position: relative;
+	top: 6px;
+	height: 50px;
+	padding: 5px 0 0!important;
+}
+
+
+.header-inner {
+	padding: 0 0 2rem;
+}
+
+#site-header {
+	z-index: 100;
+}
+
+.entry-header.has-text-align-center.header-footer-group {
+	display: none;
+}
+
+
+.menu-item-1519 {
+	list-style-position:outside;
+	padding: 10px 25px;
+	border: 1px solid #f76962;
+	border-radius: 100px;
+	text-decoration: none!important;
+	color: #f76962;
+}
+
+/* community links hover */
+.page-id-60 .blocks-gallery-item.cboxElement .custom-link.no-lightbox {
+	background-image: url(https://preview.tza-aachen.de/wp-content/uploads/2020/09/hover.svg);
+}
+
+.page-id-60 .blocks-gallery-item.cboxElement .custom-link.no-lightbox img:hover {
+	opacity: 10%;
+}
+
+/* member list alignment */
+.ugb-aeee47b-content-wrapper div {
+	height: 100%;
+}
+
+/* general */
+
+.cn-button.bootstrap {
+	background: #f76962;
+}
+
+body {
+	color: #272b36;
+}
+
+h2 {
+	letter-spacing: 0.02em!important;
+}
+
+
+h2, .heading-size-2 {
+	 font-size: 4.5rem;
+	
+}
+
+a {
+	color: #272b36;
+}
+
+a:hover {
+	color: #f76962;
+	text-decoration: underline!important;
+}
+
+.flickity-button {
+    background: #272b36;
+}
+
+
+.is-style-tw-arrow {
+	color: #e1dfdb;
+}
+
+
+
+/*body.page-id-378.custom-background {
+background: #ba9e94;
+}*/
+
+
+/* elements */
+
+.wp-block-button__link {
+	font-family: unset;
+	font-style: unset;
+  font-weight: unset;
+	border-radius: 100px!important;
+}
+
+
+.wp-block-coblocks-gallery-carousel .flickity-button.previous , .wp-block-coblocks-gallery-carousel .flickity-button.next {
+
+height: 45px;
+width: 45px;
+padding: 5px;
+	
+}
+
+
+/*.sbi_load_btn, .sbi_follow_btn {
+	border-radius:50%;
+}*/
+
+#sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a {
+	border-radius:100px;
+	margin-top: 30px;
+}
+
+
+/* hero */
+
+@media screen and (min-width: 1451px) {
+
+	.wp-block-coblocks-hero__inner[class*="hero-center"] {
+		padding-left: 18.5%;
+	}
+}
+
+
+@media screen and (max-width: 1450px) and (min-width: 1030px) {
+
+	.wp-block-coblocks-hero__inner[class*="hero-center"] {
+		padding-left: 8%;
+	}
+}
+
+@media screen and (max-width: 1029px) {
+
+	.wp-block-coblocks-hero__inner[class*="hero-center"] {
+		padding-left: 3%;
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+
+	.wp-block-coblocks-hero__inner[class*="hero-center"] {
+		padding-left: 4%;
+	}
+}
+
+
+/* herobtn */
+
+.herobtn .ugb-highlight {
+	color: #ffffff;
+	background-color: #f76962;
+	border: 1px solid #f76962;
+	border-radius: 100px;
+	padding: 10px 32px;
+}
+
+.ugb-highlight a {
+	color: #ffffff;
+	text-decoration: unset;
+}
+
+.marginheaderbtn {
+	 margin-top: -50px!important;
+}
+
+.marginheaderbtn.has-background {
+	padding: 13px 24px 30px;
+}
+
+/*hover community*/
+
+
+.community.ugb-main-block .ugb-inner-block {
+margin: 20px;
+}
+	
+.eihe-title {
+	text-align: center;
+}
+
+
+.eihe-box {
+background: none!important;
+}
+
+
+
+/* ebay */
+#ebay_kleinanzeigen_ads .itemtile-title {
+	white-space: normal;
+	line-height: 1.3 !important;
+}	
+
+#ebay_kleinanzeigen_ads .entry-content h1, .entry-content h2, .entry-content h3 {
+    margin: 0 auto 3rem;
+}
+
+#ebay_kleinanzeigen_ads .itemtile, .itemtile-condensed, .itemtile-fullpic {
+    width: 200px;
+    height: 200px;
+}
+
+#ebay_kleinanzeigen_ads > :last-child {
+    display: none;
+}
+
+/* ebay ende */
+
+/* added classes */
+
+.formapricot .coblocks-form .required {
+	color: #000000;
+}
+
+.imgmaxheight {
+	max-height: 600px;
+	overflow:hidden;
+}
+
+
+.ugb-card.ugb-card--v2 .ugb-card__content {
+padding: 15px 35px 60px;	
+}
+
+.ugb-card.ugb-card--v2 .ugb-card__title {
+color: #f76962;
+}
+
+.alignfull.ohnemargintop {
+	margin-top: 0px;
+}
+
+.marginheader {
+	 margin-top: -40px!important;
+}
+
+
+/* ??? */
+.centerbtn .coblocks-form__submit.wp-block-button {
+	text-align: center;
+}
+
+.aboutuswhitebox {
+	align-items: stretch;
+}
+
+
+/* footer */
+	
+.powered-by-wordpress {
+	display: none;
+}
+
+.footer-copyright {
+	font-weight: 400;
+	font-size: 12px
+};
+
+
+#site-footer {
+     padding-top: 0px;
+		padding-bottom: 0px;
+
+}
+aside.footer-widgets-outer-wrapper {
+    padding-bottom: 3rem;
+		padding-top: 3rem;
+}
+
+.footer-top {
+    padding-bottom: 0;
+}
+
+.footer-top {
+	border-bottom:0;
+}
+
+.aside.footer-widgets-outer-wrapper {
+    padding: 2rem 0!important;
+}
+
+
+
+
