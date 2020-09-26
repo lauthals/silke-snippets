@@ -35,6 +35,15 @@
 	border-radius: 100px;
 	text-decoration: none!important;
 	color: #f76962;
+	width: 90%;
+	left: 5%;
+}
+
+@media screen and (min-width: 1000px) {
+	.menu-item-1519 {
+		width: initial;
+		left: initial;
+	}
 }
 
 /* community links hover */
