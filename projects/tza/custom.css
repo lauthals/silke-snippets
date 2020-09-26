@@ -31,7 +31,7 @@
 .menu-item-1519 {
 	list-style-position:outside;
 	padding: 10px 25px;
-	border: 1px solid #f76962;
+	border: 1px solid #f76962 !important;
 	border-radius: 100px;
 	text-decoration: none!important;
 	color: #f76962;
