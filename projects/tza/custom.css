@@ -338,4 +338,23 @@ aside.footer-widgets-outer-wrapper {
 		grid-template-columns: 1fr 1fr !important;
 		grid-template-areas: inherit !important;
 	}
+
+	.two-col-mobile .ugb-column .ugb-card__image {
+		height: 150px !important;
+	}
+
+	.two-col-mobile .ugb-main-block {
+		margin: 0;
+	}
+
+	.two-col-mobile.alignwide.wp-block-ugb-columns.ugb-columns {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+}
+
+/* download buttons */
+
+.ugb-feature-grid.ugb-feature-grid--v2 .ugb-feature-grid__item {
+    margin-bottom: 40px;
 }
