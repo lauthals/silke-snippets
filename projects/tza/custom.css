@@ -46,6 +46,19 @@
 	}
 }
 
+/*.post-inner*/
+/*safari-fix*/
+_::-webkit-full-page-media, _:future, :root .safari_only {
+	padding-top: 0;
+}
+
+/*
+.post-inner {
+	padding-top: 0;
+}
+*/
+
+
 /* community links hover */
 .page-id-60 .blocks-gallery-item.cboxElement .custom-link.no-lightbox {
 	background-image: url(https://preview.tza-aachen.de/wp-content/uploads/2020/09/hover.svg);
@@ -56,8 +69,12 @@
 }
 
 /* member list alignment */
-.ugb-aeee47b-content-wrapper div {
+.ugb-950be16-content-wrapper div {
 	height: 100%;
+}
+
+.ugb-950be16-content-wrapper div .ugb-card.ugb-card--v2 .ugb-card__content {
+    padding: 15px 35px 0px;
 }
 
 /* general */
@@ -218,7 +235,7 @@ background: none!important;
 }
 
 #ebay_kleinanzeigen_ads .tilelist > li {
-	margin-bottom: 24px;
+	margin-bottom: 48px;
 }
 
 #ebay_kleinanzeigen_ads .tileliste li {
@@ -250,7 +267,7 @@ background: none!important;
 	}
 }
 
-@media screen and (min-width: 747px) and (max-width: 1039) {
+@media screen and (min-width: 747px) and (max-width: 1039px) {
 	#ebay_kleinanzeigen_ads .itemtile, .itemtile-condensed, .itemtile-fullpic {
 		width: 47%;
 	}
@@ -287,6 +304,55 @@ color: #f76962;
 }
 
 
+/*hero*/ /*
+@media screen and (max-width: 700px) {
+.desktoponly .wp-block-coblocks-hero {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+.boxmove .wp-block-coblocks-hero__content
+	{
+	margin-top: 200px;
+	}
+}
+*/
+
+/*hero*/
+
+@media screen and (max-width: 780px) {
+.boxmove .wp-block-coblocks-hero__inner  {
+
+background-position: 24% 81%!important;
+	}
+	
+.post-55 .boxmove .wp-block-coblocks-hero__inner  {
+
+background-position: 55% 81%!important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+.boxmove .alignfull.wp-block-ugb-card  {
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+}
+
+@media screen and (max-width: 780px) {
+.mobilefullwidth {
+	/*images untereinander*/
+	}
+}
+
+/*startupblock*/
+
+.startup .ugb-container__wrapper.ugb-2037ac4-wrapper {
+	padding: 0!important;
+}
+
+	
 /* ??? */
 .centerbtn .coblocks-form__submit.wp-block-button {
 	text-align: center;
@@ -348,8 +414,8 @@ aside.footer-widgets-outer-wrapper {
 	}
 
 	.two-col-mobile.alignwide.wp-block-ugb-columns.ugb-columns {
-		margin-top: 35px;
-		margin-bottom: 35px;
+		margin-top: 35px !important;
+		margin-bottom: 35px !important;
 	}
 }
 
@@ -357,4 +423,12 @@ aside.footer-widgets-outer-wrapper {
 
 .ugb-feature-grid.ugb-feature-grid--v2 .ugb-feature-grid__item {
     margin-bottom: 40px;
+}
+
+/* chaotic gallery */
+@media screen and (max-width: 999px) {
+	.mobilefullwidth .wp-block-coblocks-gallery-collage__item {
+		width: 100% !important;
+		padding: 10px 0 !important;
+	}
 }
