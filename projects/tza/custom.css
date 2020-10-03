@@ -27,7 +27,7 @@
 	display: none;
 }
 
-
+/* menu CTA */
 .menu-item-1519 {
 	list-style-position:outside;
 	padding: 10px 25px;
@@ -37,6 +37,13 @@
 	color: #f76962;
 	width: 90%;
 	left: 5%;
+}
+
+@media screen and (min-width: 541px) {
+	.menu-item-1519 {
+		width: 350px;
+		text-align: center;
+	}
 }
 
 @media screen and (min-width: 1000px) {
@@ -326,7 +333,7 @@ color: #f76962;
 
 background-position: 24% 81%!important;
 	}
-	
+
 .post-55 .boxmove .wp-block-coblocks-hero__inner  {
 
 background-position: 55% 81%!important;
@@ -340,19 +347,13 @@ background-position: 55% 81%!important;
  }
 }
 
-@media screen and (max-width: 780px) {
-.mobilefullwidth {
-	/*images untereinander*/
-	}
-}
-
 /*startupblock*/
 
 .startup .ugb-container__wrapper.ugb-2037ac4-wrapper {
 	padding: 0!important;
 }
 
-	
+
 /* ??? */
 .centerbtn .coblocks-form__submit.wp-block-button {
 	text-align: center;
@@ -426,9 +427,46 @@ aside.footer-widgets-outer-wrapper {
 }
 
 /* chaotic gallery */
+
+.wp-block-coblocks-gallery-collage.has-custom-gutter .wp-block-coblocks-gallery-collage__item:nth-child(1), .wp-block-coblocks-gallery-collage.has-custom-gutter .wp-block-coblocks-gallery-collage__item:nth-child(2) {
+    padding-right: var(--coblocks-custom-gutter, 0);
+}
+
 @media screen and (max-width: 999px) {
 	.mobilefullwidth .wp-block-coblocks-gallery-collage__item {
 		width: 100% !important;
 		padding: 10px 0 !important;
+	}
+}
+
+/* two column tablet layout for grid */
+@media screen and (min-width: 541px) {
+	.two-col-tablet.ugb-columns.ugb-columns.ugb-columns.ugb-columns > .ugb-inner-block > .ugb-block-content > .ugb-columns__item {
+		grid-template-columns: 1fr 1fr !important;
+	}
+}
+
+/* menu toggle */
+.nav-toggle {
+	bottom: 19px;
+}
+
+/* one column tablet layout for grid */
+@media screen and (max-width: 768px) {
+	.one-col-tablet.ugb-card.ugb-card--v2 .ugb-block-content {
+		grid-auto-flow: row;
+	}
+}
+
+/* grid gallery */
+.blocks-gallery-grid .blocks-gallery-image figure, .blocks-gallery-grid .blocks-gallery-item figure, .wp-block-gallery .blocks-gallery-image figure, .wp-block-gallery .blocks-gallery-item figure {
+    justify-content: center;
+}
+
+@media screen and (max-width: 599px) {
+	.wp-block-gallery.tw-stack-sm .blocks-gallery-grid .blocks-gallery-item {
+		width: 45% !important;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
