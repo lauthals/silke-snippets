@@ -388,6 +388,13 @@ background-position: 55% 81%!important;
  }
 }
 
+@media screen and (min-width: 1440px) {
+.startupbanner .wp-block-coblocks-hero__content-wrapper {
+    margin-right: 70%;
+	}
+}
+
+
 /* ??? */
 .centerbtn .coblocks-form__submit.wp-block-button {
     text-align: center;
