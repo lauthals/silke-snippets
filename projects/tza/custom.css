@@ -98,6 +98,15 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     min-height: 480px;
 }
 
+/* two column tablet layout for grid */
+@media screen and (min-width: 541px) and (max-width: 768px) {
+    .two-col-tablet.ugb-columns.ugb-columns.ugb-columns.ugb-columns > .ugb-inner-block > .ugb-block-content > .ugb-columns__item {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+
+
 /* general */
 
 .cn-button.bootstrap {
@@ -178,13 +187,36 @@ padding: 5px;
     margin-top: 30px;
 }
 
+/* insta */
+.insta.ugb-container.ugb-container--v2>.ugb-inner-block>.ugb-block-content>.ugb-container__wrapper, 
+.insta.ugb-cta.ugb-cta--v2:not(.ugb-cta--design-plain) .ugb-cta__item, 
+.insta.ugb-feature.ugb-feature--v2.ugb-feature--design-basic .ugb-feature__item {
+	
+	padding: 0px;
+
+}
+
+@media screen and (min-width: 650px) {
+
+.insta.ugb-main-block.ugb--has-block-background.alignfull.alignfull.alignfull.alignfull {
+	padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 649px) {
+
+.insta.ugb-main-block.ugb--has-block-background.alignfull.alignfull.alignfull.alignfull {
+	padding-top: 0px;
+	}
+}
+
 
 /* hero */
 
 @media screen and (min-width: 1451px) {
 
     .wp-block-coblocks-hero__inner[class*="hero-center"] {
-        padding-left: 18.5%;
+        padding-left: 9%;
     }
 }
 
@@ -376,6 +408,13 @@ background-position: 55% 81%!important;
     padding-top: 0 !important;
 }
 
+@media screen and (max-width: 700px) {
+.startupbanner .wp-block-coblocks-hero__inner {
+	padding-top: 0;
+	padding-right: 0;
+	}
+}
+
 @media screen and (max-width: 600px) {
 .startupbanner .wp-block-coblocks-hero__content-wrapper {
 	margin-bottom: 70%;
@@ -487,12 +526,7 @@ aside.footer-widgets-outer-wrapper {
     }
 }
 
-/* two column tablet layout for grid */
-@media screen and (min-width: 541px) {
-    .two-col-tablet.ugb-columns.ugb-columns.ugb-columns.ugb-columns > .ugb-inner-block > .ugb-block-content > .ugb-columns__item {
-        grid-template-columns: 1fr 1fr !important;
-    }
-}
+
 
 /* menu toggle */
 .nav-toggle {
