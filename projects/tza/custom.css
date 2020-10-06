@@ -359,9 +359,9 @@ background-position: 55% 81%!important;
 }
 
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 515px) and (max-width: 780px) {
 .page-id-55 .boxmove .wp-block-coblocks-hero__content-wrapper {
-	padding-right: 40%;
+	padding-right: 55%;
 	}
 }
 
