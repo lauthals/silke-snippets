@@ -462,6 +462,13 @@ background-position: 55% 81%!important;
 padding-top: 0px !important;
 }
 
+@media screen and (max-width: 760px) {
+.page-id-62 .ugb-columns__item div {
+	
+	height: 98%;
+
+	}
+
 
 /* footer */
 
