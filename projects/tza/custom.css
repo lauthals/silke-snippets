@@ -434,7 +434,7 @@ background-position: 55% 81%!important;
 }
 
 
-/* ??? */
+/*  */
 .centerbtn .coblocks-form__submit.wp-block-button {
     text-align: center;
 }
@@ -446,10 +446,16 @@ background-position: 55% 81%!important;
 /* services */
 
 @media screen and (max-width: 1023px) {
-#post-62 .ugb-block-content, .ugb-inner-block {
+#post-62 .servicewhitebox .ugb-block-content, .ugb-inner-block {
     margin: 0 0 17px;
  }
 }
+
+.ugb-bf1f03a-wrapper > .ugb-container__side {
+
+padding-top: 0px !important;
+}
+
 
 /* footer */
 
