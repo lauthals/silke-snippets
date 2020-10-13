@@ -158,6 +158,12 @@ grid-gap: 0px;
 	}
 }
 
+.nullmarginbottom {
+	margin-bottom: 0px;
+}
+
+
+
 /* elements */
 
 .wp-block-button__link {
@@ -451,7 +457,7 @@ background-position: 55% 81%!important;
  }
 }
 
-.ugb-bf1f03a-wrapper > .ugb-container__side {
+.blauebox .ugb-bf1f03a-wrapper > .ugb-container__side {
 
 padding-top: 0px !important;
 }
