@@ -139,6 +139,14 @@ a:hover {
     text-decoration: underline!important;
 }
 
+.page-id-143 .coblocks-label a {
+    color: #ffffff;
+}
+
+.page-id-143 a:hover {
+    color: #272b36;
+}
+
 .flickity-button {
     background: #272b36;
 }
