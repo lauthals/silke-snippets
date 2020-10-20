@@ -609,6 +609,30 @@ aside.footer-widgets-outer-wrapper {
     float: initial;
 }
 
+
+/* openstreetmap */
+
+.openstreetmap .sbs_marker_background {
+	fill: #f76962!important;
+}
+
+.openstreetmap .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+	background: #f76962;
+	color: #fff;
+}
+
+.openstreetmap
+.leaflet-top, .leaflet-bottom {
+	z-index: 80;
+}
+
+.openstreetmap
+.leaflet-touch-zoom {
+	z-index: 80;
+}
+
+
+
 /* random hacks */
 
 .ugb-button-wrapper .ugb-block-content {
