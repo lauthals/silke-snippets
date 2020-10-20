@@ -101,6 +101,18 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     }
 }
 
+@media screen and (min-width: 545px) and (max-width: 1023px){
+.page-id-33 .servicewhitebox .ugb-block-content, .ugb-inner-block {
+
+margin: 0 8px 0!important;
+}
+
+.page-id-33 .ugb-block-content, .ugb-inner-block {   
+
+padding: 0 0 16px;
+	}
+}
+
 
 
 /* general */
