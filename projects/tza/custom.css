@@ -107,7 +107,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 margin: 0 8px 0!important;
 }
 
-.page-id-33 .ugb-block-content, .ugb-inner-block {   
+.page-id-33 .ugb-block-content, .ugb-inner-block {
 
 padding: 0 0 16px;
 	}
@@ -204,35 +204,6 @@ padding: 5px;
 
 
 
-#sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a {
-    border-radius:100px;
-    margin-top: 30px;
-}
-
-/* insta */
-.insta.ugb-container.ugb-container--v2>.ugb-inner-block>.ugb-block-content>.ugb-container__wrapper,
-.insta.ugb-cta.ugb-cta--v2:not(.ugb-cta--design-plain) .ugb-cta__item,
-.insta.ugb-feature.ugb-feature--v2.ugb-feature--design-basic .ugb-feature__item {
-
-	padding: 0px;
-
-}
-
-@media screen and (min-width: 650px) and (max-width: 1024px){
-
-.insta.ugb-main-block.ugb--has-block-background.alignfull.alignfull.alignfull.alignfull {
-	padding-top: 40px;
-	}
-}
-
-@media screen and (max-width: 649px) {
-
-.insta.ugb-main-block.ugb--has-block-background.alignfull.alignfull.alignfull.alignfull {
-	padding-top: 0px;
-	}
-}
-
-
 /*hover community*/
 
 
@@ -302,6 +273,20 @@ background: none!important;
 
 
 /* added classes */
+
+/* form */
+
+.coblocks-checkbox-label {
+	color: #000000;
+}
+
+.coblocks-checkbox-label {
+	margin-top: 30px;
+}
+
+a.ugb-highlight {
+	color: #f76962;
+}
 
 .formapricot .coblocks-form .required {
     color: #ffffff;
@@ -610,16 +595,6 @@ aside.footer-widgets-outer-wrapper {
     }
 }
 
-/* instagram */
-
-#sb_instagram .sb_instagram_header {
-    display: flex;
-    justify-content: center;
-}
-
-#sb_instagram .sb_instagram_header .sbi_header_text {
-    float: initial;
-}
 
 
 /* openstreetmap */
