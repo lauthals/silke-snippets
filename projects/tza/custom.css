@@ -223,52 +223,11 @@ background: none!important;
 
 
 /* ebay */
-#ebay_kleinanzeigen_ads .tilelist {
-    justify-content: flex-start;
+
+mark {
+    background-color: #e1dfdb;
 }
 
-#ebay_kleinanzeigen_ads .itemtile-header {
-    height: 200px;
-}
-
-#ebay_kleinanzeigen_ads .tilelist > li {
-    margin-bottom: 48px;
-}
-
-#ebay_kleinanzeigen_ads .tileliste li {
-    display: none; /* hide empty tiles */
-}
-
-#ebay_kleinanzeigen_ads .itemtile-title {
-    white-space: normal;
-    line-height: 1.3 !important;
-}
-
-#ebay_kleinanzeigen_ads .entry-content h1, .entry-content h2, .entry-content h3 {
-    margin: 0 auto 3rem;
-}
-
-#ebay_kleinanzeigen_ads .itemtile, .itemtile-condensed, .itemtile-fullpic {
-    width: 100%;
-    height: 254px;
-    display: block; /* show non-empty tiles */
-}
-
-#ebay_kleinanzeigen_ads > :last-child {
-    display: none;
-}
-
-@media screen and (min-width: 1040px) {
-    #ebay_kleinanzeigen_ads .itemtile, .itemtile-condensed, .itemtile-fullpic {
-        width: 31%;
-    }
-}
-
-@media screen and (min-width: 747px) and (max-width: 1039px) {
-    #ebay_kleinanzeigen_ads .itemtile, .itemtile-condensed, .itemtile-fullpic {
-        width: 47%;
-    }
-}
 
 
 
