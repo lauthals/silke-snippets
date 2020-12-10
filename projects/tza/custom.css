@@ -277,6 +277,18 @@ color: #f76962;
      margin-top: -40px!important;
 }
 
+.coblocks-form .required {
+    color: #f76962;
+}
+
+.coblocks-form .coblocks-field .coblocks-checkbox-label {
+    display: inline-flex;
+    width: 90%;
+}
+
+.coblocks-form .coblocks-field a {
+    color: #f76962;
+}
 
 /* hero */
 
