@@ -590,6 +590,23 @@ aside.footer-widgets-outer-wrapper {
 }
 
 
+.mobilemap.alignwide {
+width: 100%;
+}
+
+/* instagram */
+
+.page-id-33 .wp-block-image.size-large.is-resized.mb-0.mt-0 {
+	display: flex;
+	justify-content: center;
+}
+
+/* cookie first */
+
+.cfGMLl .cf3Mob[data-cookiefirst-button=primary]:not([disabled]){
+	font-size: 25px!important;
+}
+
 
 /* random hacks */
 
