@@ -594,6 +594,17 @@ aside.footer-widgets-outer-wrapper {
 width: 100%;
 }
 
+
+.marginright {
+	margin-right: 20px;
+}
+
+.marginrightmobile {
+	margin-right: 6px;
+}
+
+
+
 /* instagram */
 
 .page-id-33 .wp-block-image.size-large.is-resized.mb-0.mt-0 {
