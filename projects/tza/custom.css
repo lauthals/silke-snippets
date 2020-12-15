@@ -74,7 +74,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 /* community links hover */
 .page-id-60 .blocks-gallery-item.cboxElement .custom-link.no-lightbox {
-    background-image: url(https://preview.tza-aachen.de/wp-content/uploads/2020/09/hover.svg);
+    background-image: url(https://tza-aachen.de/wp-content/uploads/2020/09/hover.svg);
 }
 
 .page-id-60 .blocks-gallery-item.cboxElement .custom-link.no-lightbox img:hover {
@@ -245,6 +245,10 @@ mark {
 
 a.ugb-highlight {
 	color: #f76962;
+}
+
+.formapricot .coblocks-form .coblocks-field a {
+    color: #ffffff;
 }
 
 .formapricot .coblocks-form .required {
@@ -480,6 +484,11 @@ aside.footer-widgets-outer-wrapper {
     padding: 2rem 0!important;
 }
 
+
+.footer-social-wrapper a:hover {
+    color: #fff;
+}
+
 /* changes for bubbles */
 @media screen and (max-width:768px) {
     .two-col-mobile.ugb-columns.ugb-columns.ugb-columns.ugb-columns > .ugb-inner-block > .ugb-block-content > .ugb-columns__item {
@@ -617,6 +626,19 @@ width: 100%;
 .cfGMLl .cf3Mob[data-cookiefirst-button=primary]:not([disabled]){
 	font-size: 25px!important;
 }
+
+
+/* datenschutz */
+
+.page-id-2626 .ugb-accordion.ugb-accordion--v2.ugb-accordion--design-plain .ugb-accordion__heading {
+
+margin-bottom: 20px;
+}
+
+.page-id-2626 .ugb-main-block {
+    margin-top: 0;
+}
+
 
 
 /* random hacks */
