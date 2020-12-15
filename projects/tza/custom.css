@@ -70,6 +70,18 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 
 
+/* startseite Icons */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	
+.startseite_CTA_2.ugb-main-block {
+    margin-top: 0;
+	}
+
+.startseite_CTA_3.ugb-main-block.ugb-button-wrapper  {
+    margin-top: 49px !important;
+	}
+}
 
 
 /* community links hover */
@@ -650,7 +662,7 @@ margin-bottom: 20px;
 
 
 /* align misaligned paragraphs */
-#post-55 .ugb-column, #post-143 .ugb-column {
+#post-55 .ugb-column, #post-143 .ugb-column, #post-62 .ugb-column {
     margin-left: 0 !important;
 }
 
