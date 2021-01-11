@@ -106,6 +106,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     min-height: 480px;
 }
 
+.aboutuswhitebox a {
+    color: #f76962;
+}
+
 /* two column tablet layout for grid */
 @media screen and (min-width: 541px) and (max-width: 768px) {
     .two-col-tablet.ugb-columns.ugb-columns.ugb-columns.ugb-columns > .ugb-inner-block > .ugb-block-content > .ugb-columns__item {
@@ -651,6 +655,10 @@ margin-bottom: 20px;
     margin-top: 0;
 }
 
+.page-id-2626 button, .button, input, select, textarea, .wp-block-button, .wp-block-button__link {
+	
+	margin-bottom: 30px;
+}
 
 
 /* random hacks */
