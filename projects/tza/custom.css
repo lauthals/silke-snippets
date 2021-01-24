@@ -365,7 +365,7 @@ background-position: 55% 81%!important;
 
 @media screen and (max-width: 514px) {
 .page-id-55 .boxmove .wp-block-coblocks-hero__content-wrapper {
-	padding-right: 45%;
+	padding-right: 14%;
 	}
 }
 
@@ -375,6 +375,14 @@ background-position: 55% 81%!important;
 	}
 }
 
+/*workspace hero*/
+
+@media screen and (min-width: 1900px) {
+.page-id-143 .wp-block-coblocks-hero__inner[class*="hero-center"] /*background-image: url(https://tza-aachen.de/wp-content/uploads/2020/09/bild0011_head.jpg);*/ {
+    background-position: 50% 68%!important;
+
+	}
+}
 
 /* herobtn */
 
@@ -684,3 +692,12 @@ margin-bottom: 20px;
 		padding-top:0;
 	}
 } }
+
+
+.page-id-13 .post-inner,
+.page-id-55 .post-inner,
+.page-id-378 .post-inner,
+.page-id-143 .post-inner,
+.page-id-62 .post-inner {
+		padding-top:0!important;
+	}
