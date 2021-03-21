@@ -384,6 +384,15 @@ background-position: 55% 81%!important;
 	}
 }
 
+/* work space bottom */
+
+@media screen and (min-width: 650px) and (max-width: 768px) {
+.ugb-main-block.ugb--has-block-background.alignfull.alignfull.alignfull.alignfull {
+    margin-bottom: -16% !important;
+	
+ }
+}
+
 /* herobtn */
 
 .herobtn .ugb-highlight {
