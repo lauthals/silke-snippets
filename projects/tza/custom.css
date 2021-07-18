@@ -147,6 +147,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 /* small desktop two columns */
 
+
 @media screen and (min-width: 769px) and (max-width: 1200px) {
 
 .page-id-33 .ugb-columns.ugb-columns--design-grid.ugb-columns--columns-6>.ugb-inner-block>.ugb-block-content>.ugb-columns__item {
@@ -154,7 +155,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
         "one two"
         "three four"
         "five six";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr!important;
 
 	}
 }
@@ -173,21 +174,6 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 
 
-
-
-
-/* @media screen and (min-width: 545px) and (max-width: 1023px){
-.page-id-33 .servicewhitebox .ugb-block-content, .ugb-inner-block {
-
-margin: 0 8px 0!important;
-}
-
-.page-id-33 .ugb-block-content, .ugb-inner-block {
-
-padding: 0 0 16px;
-	}
-}
-*/
 
 
 @media screen and (min-width: 768px) {
@@ -738,7 +724,7 @@ aside.footer-widgets-outer-wrapper {
 @media screen and (min-width: 769px) and (max-width:1299px) {
 	
 .page-id-33 .h-pad-left {
-    padding-left: 5%;
+    padding-left: 3%;
 	
   }
 }
@@ -746,7 +732,7 @@ aside.footer-widgets-outer-wrapper {
 @media screen and (min-width: 1300px) and (max-width:1599px) {
 	
 .page-id-33 .h-pad-left {
-    padding-left: 9%;
+    padding-left: 7%;
 	
   }
 }
@@ -754,7 +740,7 @@ aside.footer-widgets-outer-wrapper {
 @media screen and (min-width: 1600px) {
 	
 .page-id-33 .h-pad-left {
-    padding-left: 22%;
+    padding-left: 7%;
 	
   }
 }
